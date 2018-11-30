@@ -6,6 +6,9 @@ Then, we check the status of the orders, and if both executed then we generate a
 
 If any of the orders not got executed, just sitting in the book, then the order will be cancelled, and we also need to  initiate a new trade on the successfully traded side, to revert back the balance so availble fund will be there when the next opportunity would come.
 
+
+Spreadfinder is a utility to detect which exchanges / markets are good canditates for arbitrage trading. It need to start and leave it running for a few days. Later read in and analyize the datafile.
+
 AH.
 
 
